@@ -1,0 +1,28 @@
+.header {
+  @include flex(flex-start, center);
+  gap: 50px;
+  border-bottom: 1px solid $purple-dark;
+}
+
+.header__logo-link {
+  display: block;
+  width: 4rem;
+
+  & img {
+    width: 100%;
+  }
+}
+
+.header__nav {
+  @include flex(space-between, center);
+  gap: 20px;
+}
+
+.header__nav-link {
+  font-size: 1.3rem;
+  color: $purple-dark;
+
+  &:hover {
+    color: $purple-middle;
+  }
+}

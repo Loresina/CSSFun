@@ -3,25 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>CSS Fun</title>
+
+    <link rel="stylesheet" href="./styles/normalize.min.css" />
+    <link rel="stylesheet" href="./src/styles/index.css" />
   </head>
   <body>
     <div class="wrapper">
-      <header class="container">
-        <a href="/src/index.html">
+      <header class="container header">
+        <a href="/index.html" class="header__logo-link">
           <img src="/src/static/logo.svg" alt="site logo" />
         </a>
 
-        <nav>
-          <a href="/">about</a>
-          <a href="/">main</a>
+        <nav class="header__nav">
+          <a href="/" class="header__nav-link">main</a>
+          <a href="#footer" class="header__nav-link">about</a>
         </nav>
       </header>
 
-      <main>
-        <h1>It is site for my fun with CSS</h1>
-        <div></div>
+      <main class="container main">
+        <section class="one">content here 1</section>
+        <section class="two">content here 2</section>
+        <section class="three">content here 3</section>
+        <section class="four-five">content here 4</section>
+        <!-- <section class="five">content here 5</section> -->
+        <section class="six">content here 6</section>
+        <section class="seven">content here 7</section>
+        <section class="eight">content here 8</section>
+        <section class="nine">content here 9</section>
+        <section class="ten">content here 10</section>
+        <section class="eleven">content here 11</section>
+        <section class="twelve">content here 12</section>
       </main>
+
+      <footer #id="footer" class="container footer">
+        <span>It is site for my fun with CSS</span>
+      </footer>
     </div>
   </body>
 </html>

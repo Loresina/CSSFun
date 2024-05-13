@@ -1,0 +1,44 @@
+$wrap: 1440px;
+$container: 1240px;
+$marg: 0 auto;
+$white: #fff;
+$black: #08020d;
+$grey: #e6e6e6f5;
+$purple-dark: #460a66;
+$purple-middle: #60f;
+$purple-light: #a101ff;
+$yellow: #fbcd00;
+$red: #ff5700;
+
+@mixin flex($jc, $ai) {
+  display: flex;
+  justify-content: $jc;
+  align-items: $ai;
+}
+
+body {
+  margin: $marg;
+  background: $grey;
+}
+
+.wrapper {
+  position: relative;
+  max-width: $wrap;
+  margin: $marg;
+}
+
+.container {
+  position: relative;
+  max-width: $container;
+  margin: $marg;
+  padding: 20px;
+  background: $white;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
