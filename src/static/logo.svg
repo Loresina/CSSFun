@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="145.07" height="115.93" viewBox="0 0 145.07 115.93">
+  <defs>
+    <style>
+      .a {
+        isolation: isolate;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: #fc7200;
+      }
+
+      .c, .h {
+        opacity: 0.3;
+        mix-blend-mode: multiply;
+      }
+
+      .d {
+        fill: url(#b);
+      }
+
+      .e {
+        fill: url(#c);
+      }
+
+      .f {
+        fill: url(#d);
+      }
+
+      .g {
+        fill: url(#e);
+      }
+
+      .i {
+        fill: #7800ff;
+      }
+
+      .j {
+        fill: url(#f);
+      }
+    </style>
+    <linearGradient id="a" data-name="Degradado sin nombre 2" x1="67.1" y1="163.93" x2="32.97" y2="104.35" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffcd0d"/>
+      <stop offset="1" stop-color="#fc7200"/>
+    </linearGradient>
+    <linearGradient id="b" data-name="Degradado sin nombre 49" x1="63.92" y1="42.01" x2="21.12" y2="115.84" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fc7200"/>
+      <stop offset="1" stop-color="#ffcd0d"/>
+    </linearGradient>
+    <linearGradient id="c" x1="-1473.68" y1="163.93" x2="-1507.82" y2="104.35" gradientTransform="matrix(-1, 0, 0, 1, -1340.78, 0)" xlink:href="#a"/>
+    <linearGradient id="d" x1="-1476.86" y1="42.01" x2="-1519.67" y2="115.84" gradientTransform="matrix(-1, 0, 0, 1, -1340.78, 0)" xlink:href="#b"/>
+    <linearGradient id="e" data-name="Degradado sin nombre 5" x1="100" y1="83.58" x2="100" y2="96.77" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b400ff"/>
+      <stop offset="1" stop-color="#7800ff"/>
+    </linearGradient>
+    <linearGradient id="f" x1="100" y1="103.38" x2="100" y2="116.57" gradientTransform="matrix(-1, 0, 0, 1, 200, 0)" xlink:href="#e"/>
+  </defs>
+  <title>logo</title>
+  <g class="a">
+    <g>
+      <g>
+        <g>
+          <g>
+            <path class="b" d="M61.67,158H55.51a17,17,0,0,1-17-17V110.34a3.67,3.67,0,0,0-3.67-3.67h-.7A6.67,6.67,0,0,1,27.47,100h0a6.67,6.67,0,0,1,6.67-6.67h.7a17,17,0,0,1,17,17V141a3.67,3.67,0,0,0,3.67,3.67h6.16a6.67,6.67,0,0,1,6.67,6.67h0A6.67,6.67,0,0,1,61.67,158Z" transform="translate(-27.47 -42.03)"/>
+            <path class="c" d="M51.09,105.36a17,17,0,0,0-16.27-12h-.7A6.67,6.67,0,0,0,27.47,100h0a6.67,6.67,0,0,0,6.67,6.67h.7a3.67,3.67,0,0,1,3.67,3.67V112A22.59,22.59,0,0,0,51.09,105.36Z" transform="translate(-27.47 -42.03)"/>
+          </g>
+          <path class="d" d="M61.67,42H55.51a17,17,0,0,0-17,17V89.66a3.67,3.67,0,0,1-3.67,3.67h-.7A6.67,6.67,0,0,0,27.47,100h0a6.67,6.67,0,0,0,6.67,6.67h.7a17,17,0,0,0,17-17V59a3.67,3.67,0,0,1,3.67-3.67h6.16a6.67,6.67,0,0,0,6.67-6.67h0A6.67,6.67,0,0,0,61.67,42Z" transform="translate(-27.47 -42.03)"/>
+        </g>
+        <g>
+          <g>
+            <path class="e" d="M138.33,158h6.16a17,17,0,0,0,17-17V110.34a3.67,3.67,0,0,1,3.67-3.67h.7a6.67,6.67,0,0,0,6.67-6.67h0a6.67,6.67,0,0,0-6.67-6.67h-.7a17,17,0,0,0-17,17V141a3.67,3.67,0,0,1-3.67,3.67h-6.16a6.67,6.67,0,0,0-6.67,6.67h0A6.67,6.67,0,0,0,138.33,158Z" transform="translate(-27.47 -42.03)"/>
+            <path class="c" d="M165.87,106.67a6.67,6.67,0,0,0,6.67-6.67h0a6.67,6.67,0,0,0-6.67-6.67h-.7a17,17,0,0,0-16.27,12A22.59,22.59,0,0,0,161.5,112v-1.64a3.67,3.67,0,0,1,3.67-3.67Z" transform="translate(-27.47 -42.03)"/>
+          </g>
+          <path class="f" d="M138.33,42h6.16a17,17,0,0,1,17,17V89.66a3.67,3.67,0,0,0,3.67,3.67h.7a6.67,6.67,0,0,1,6.67,6.67h0a6.67,6.67,0,0,1-6.67,6.67h-.7a17,17,0,0,1-17-17V59a3.67,3.67,0,0,0-3.67-3.67h-6.16a6.67,6.67,0,0,1-6.67-6.67h0A6.67,6.67,0,0,1,138.33,42Z" transform="translate(-27.47 -42.03)"/>
+        </g>
+      </g>
+      <g>
+        <g>
+          <path class="g" d="M126.51,96.91H91.61a6.8,6.8,0,1,1,0-13.61h34.9a6.8,6.8,0,1,1,0,13.61Zm-52,0H73.49a6.8,6.8,0,1,1,0-13.61h1.05a6.8,6.8,0,1,1,0,13.61Z" transform="translate(-27.47 -42.03)"/>
+          <g class="h">
+            <path class="i" d="M91.61,96.91h34.9a6.8,6.8,0,0,0,6.8-6.8H84.81A6.8,6.8,0,0,0,91.61,96.91Z" transform="translate(-27.47 -42.03)"/>
+            <path class="i" d="M73.49,96.91h1.05a6.8,6.8,0,0,0,6.8-6.8H66.68A6.8,6.8,0,0,0,73.49,96.91Z" transform="translate(-27.47 -42.03)"/>
+          </g>
+        </g>
+        <g>
+          <path class="j" d="M66.68,109.9a6.8,6.8,0,0,1,6.8-6.8h34.9a6.8,6.8,0,1,1,0,13.61H73.49A6.8,6.8,0,0,1,66.68,109.9Zm52,0a6.8,6.8,0,0,1,6.8-6.8h1.05a6.8,6.8,0,1,1,0,13.61h-1.05A6.8,6.8,0,0,1,118.66,109.9Z" transform="translate(-27.47 -42.03)"/>
+          <g class="h">
+            <path class="i" d="M108.39,116.7H73.49a6.8,6.8,0,0,1-6.8-6.8h48.51A6.8,6.8,0,0,1,108.39,116.7Z" transform="translate(-27.47 -42.03)"/>
+            <path class="i" d="M126.51,116.7h-1.05a6.8,6.8,0,0,1-6.8-6.8h14.66A6.8,6.8,0,0,1,126.51,116.7Z" transform="translate(-27.47 -42.03)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
