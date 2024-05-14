@@ -98,7 +98,7 @@ section {
 .one__text {
   width: 100%;
   display: block;
-  font-size: 6.5vw;
+  font-size: clamp(26px, 7vw, 110px);
   text-align: center;
   font-family: "Jaro", sans-serif;
   font-weight: bold;
