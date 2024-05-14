@@ -1,14 +1,28 @@
+@font-face {
+  font-weight: 700;
+  font-family: "Jaro";
+  src: url("/src/fonts/Jaro/static/Jaro_60pt-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: "Roboto";
+  src: url("/src/fonts/Roboto/Roboto-Regular.ttf");
+}
+
 $wrap: 1440px;
 $container: 1240px;
 $marg: 0 auto;
 $white: #fff;
 $black: #08020d;
-$grey: #e6e6e6f5;
+$grey-light: #e6e6e6f5;
+$grey: #d3d3d3;
 $purple-dark: #460a66;
-$purple-middle: #60f;
+$purple-middle: #6600ff;
 $purple-light: #a101ff;
 $yellow: #fbcd00;
 $red: #ff5700;
+$font: "Roboto", sans-serif;
 
 @mixin flex($jc, $ai) {
   display: flex;
@@ -18,7 +32,9 @@ $red: #ff5700;
 
 body {
   margin: $marg;
-  background: $grey;
+  background: $grey-light;
+  font-family: $font;
+  font-weight: 400;
 }
 
 .wrapper {
