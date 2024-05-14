@@ -1,27 +1,15 @@
-// .one {
-//   text-align: center;
-// }
-
-// .one span {
-//   background: red;
-//   font-size: 2em;
-// }
-
 .one__text {
-  width: 100%;
   display: block;
-  font-size: 6.5vw;
   text-align: center;
 
   font-family: "Jaro", sans-serif;
+  text-transform: uppercase;
   font-weight: bold;
 
-  text-transform: uppercase;
+  font-size: clamp(26px, 7vw, 110px);
 
   background-image: url("/src/static/cloud.jpg");
-  overflow: hidden;
   background-position: left center;
-
   background-size: cover;
 
   background-clip: text;
