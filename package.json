@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:scss": "sass --watch ./src/styles/scss/app.scss:./src/styles/index.css",
     "lint:scss": "stylelint '**/*.scss'",
-    "lint:html": "htmlhint '**/*.html'"
+    "lint:html": "htmlhint '**/*.html'",
+    "start": "webpack serve",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -20,10 +22,18 @@
   },
   "homepage": "https://github.com/Loresina/CSSFun#readme",
   "devDependencies": {
+    "css-loader": "^7.1.1",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
     "htmlhint": "^1.1.4",
+    "mini-css-extract-plugin": "^2.9.0",
     "sass": "^1.77.1",
+    "style-loader": "^4.0.0",
     "stylelint": "^16.5.0",
     "stylelint-config-standard": "^36.0.0",
-    "stylelint-config-standard-scss": "^13.1.0"
+    "stylelint-config-standard-scss": "^13.1.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
   }
 }
