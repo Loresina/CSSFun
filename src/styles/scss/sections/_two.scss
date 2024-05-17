@@ -1,0 +1,16 @@
+.two {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.swiper {
+  flex-grow: 1;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.swiper-slide img {
+  width: 100%;
+}
