@@ -1,7 +1,6 @@
 .header {
   @include flex(flex-start, center);
   gap: 50px;
-  // border-bottom: 1px solid $purple-dark;
 }
 
 .header__logo-link {
