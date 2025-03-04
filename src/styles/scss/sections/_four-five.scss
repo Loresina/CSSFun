@@ -16,7 +16,7 @@
         left: calc(100% - 100px);
         width: 100px;
         height: 100px;
-        background-color: #ff44b1;
+        background-color: $pink;
         border-top-right-radius: 60px;
         border-bottom-left-radius: 60px;
 
@@ -54,7 +54,7 @@
         left: 45%;
         width: 10px;
         height: 10px;
-        background: white;
+        background: $white;
         border-radius: 5px;
 
         animation:
@@ -83,11 +83,11 @@
 
     @keyframes color-change {
         50% {
-          background-color: #ca44ff;
+          background-color: $lilac;
         }
 
         100% {
-          background-color: #448fff;
+          background-color: $blue;
         }
       }
 
