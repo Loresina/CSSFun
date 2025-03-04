@@ -10,19 +10,36 @@
   src: url("/src/fonts/Roboto/Roboto-Regular.ttf");
 }
 
+@font-face {
+  font-weight: 700;
+  font-family: "Roboto";
+  src: url("/src/fonts/Roboto/Roboto-Bold.ttf");
+}
+
 $wrap: 1440px;
 $container: 1240px;
+$wight-section: 400px;
 $marg: 0 auto;
 $white: #fff;
 $black: #08020d;
+$grey-super-dark: #1a161d;
 $grey-dark: #3d3c3cf5;
 $grey-light: #e6e6e6f5;
+$grey-super-light: #fafafaf5;
 $grey: #d3d3d3;
 $purple-dark: #460a66;
 $purple-middle: #6600ff;
 $purple-light: #a101ff;
 $yellow: #fbcd00;
+$yellow-light: #fcdf60;
+$yellow-green: #cfff75;
 $red: #ff5700;
+$red-light: #cfff75;
+$lilac: #ca44ff;
+$blue: #448fff;
+$blue-light: #96cffd;
+$blue-super-light: #f7fbff;
+$pink: #ff44b1;
 $font: "Roboto", sans-serif;
 
 @mixin flex($jc, $ai) {
@@ -59,6 +76,10 @@ a {
 
 h2 {
   margin-top: 0;
+}
+
+h4 {
+  font-style: italic;
 }
 
 * {

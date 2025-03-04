@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>CSS Fun</title>
+    <title>HTML and CSS Fun</title>
   </head>
   <body>
     <div class="wrapper">
@@ -53,7 +53,125 @@
           </div>
         </section>
 
-        <section class="section-three">content here 4</section>
+        <section class="section-three-six-nine">
+          <h2>PopUp and modal research</h2>
+
+          <section aria-labelledby="popup-theory">
+            <h3 id="popup-theory">PopUp windows theory.</h3>
+            
+            <h4 id="popup-definitions" hidden>PopUp  definitions:</h4>
+            <dl aria-labelledby="popup-definitions">
+              <dt>PopUp window</dt>
+                <dd>This is the window that appears above(over) the main content of the page.</dd>
+              <dt>Modal popUp window</dt>
+                <dd>The popUp that has overlay. You can't interact with a page content. It can be one per page only.</dd>
+              <dt>Not modal popUp window</dt>
+                <dd>Hasn't overlay. You can interact with the page content. Its can be mny per page.  </dd>
+              <dt>Overlay</dt>
+                <dd>This is background  behind a pop-up. It makes the popup window modal.</dd>
+            </dl>
+
+            <h4 id="popup-todo">PopUp should do it:</h4>
+            <ol aria-labelledby="popup-todo">
+              <li>float on the top layer</li>
+              <li>catch focus</li>
+              <li>open by click/ by timer</li>
+              <li>close via keyboard events</li>
+            </ol>
+          </section>
+
+          <div class="popup-research">
+            <div class="popup-research__dialog">
+              <h3>1. Tag &lt;dialog&gt;</h3>
+
+              <h4 id="dialog-definitions" hidden>PopUp  definitions:</h4>
+              <dl aria-labelledby="dialog-definitions">
+                <dt>&lt;dialog&gt; HTML element</dt>
+                  <dd>The element represents a modal or non-modal dialog box or other interactive component.
+                    Has semantic role="dialog".</dd>
+              </dl>
+
+              <div class="popup-research_btn-group">
+                <button type="button" onclick="window.popUpDialog.show()" aria-label="Open popup dialog">
+                  Open PopUp window
+                </button>
+                <button type="button" onclick="window.modalDialog.showModal()" aria-label="Open modal dialog">
+                  Open Modal window
+                </button>
+              </div>
+
+              <dialog id="modalDialog" aria-label="Modal dialog description">
+                <p>
+                  I am ModalDialog.
+                  I was opened by onclick="window.modalDialog.showModal() inline command.
+                </p>
+  
+                <button type="button" onclick="window.modalDialog.close()">
+                  close
+                </button>
+              </dialog>
+  
+              <dialog id="popUpDialog" aria-label="popup Dialog">
+                <p>I am popUpDialog.
+                I was opened by onclick="window.modalDialog.show() inline command.
+                </p>
+  
+                <button type="button" onclick="window.popUpDialog.close()">
+                  close
+                </button>
+              </dialog>
+            </div>
+
+            <div class="popup-research__popover">
+              <h3>2. Popover API</h3>
+
+              <div class="popup-research_btn-group">
+                <button popovertarget="popover-auto">
+                  Open Popover auto
+                </button>
+  
+                <button popovertarget="popover-manual">
+                  Open Popover manual
+                </button>
+              </div>
+
+              <div id="popover-auto" popover>
+                <button popovertarget="popover-auto">Close Popover auto</button>
+              </div>
+
+              <div id="popover-manual" popover="manual">
+                <button popovertarget="popover-manual">Close Popover manual</button>
+              </div>
+              
+              <h4 id="popover-theory" hidden>Popover theory:</h4>
+              <dl aria-labelledby="popover-theory">
+                <dt>popover="auto"</dt>
+                  <dd>Default. Creates a modal window. There is closing by overlay. It can be one per page only.</dd>
+                <dt>popover="manual"</dt>
+                  <dd>Creates not modal window. It can be one per page only.</dd>
+              </dl>
+            </div>
+
+            <div class="popup-research__tooltips">
+
+              <h3 id="tooltip-definition">3. PopUp as tooltips</h3>
+              <dl aria-labelledby="tooltip-definition">
+                <dt>Tooltip</dt>
+                  <dd>It is a special pop-up, it show on focus on an item.</dd>
+              </dl>
+
+              <div class="popup-research_btn-group">
+                <button title="I am very simple tooltip!" aria-label="Button for showing the tooltip">There is very simple tooltip created by title attr!</button>
+
+                <button class="button tooltip-anchor" id="tooltip-anchor" aria-describedby="tooltip">There is tooltip created by popover API!</button>
+  
+                <dialog class="tooltip" id="tooltip" role="tooltip" popover="manual">
+                  <div class="tooltip-content">I am tooltip created by popover API!</div>
+                </dialog>              
+              </div>
+            </div>
+          </div>          
+        </section>
 
         <section class="section-four-five">
           <h2>animation css</h2>
@@ -62,10 +180,8 @@
           </div>
         </section>
 
-        <section class="section-six">content here 6</section>
         <section class="section-seven">content here 7</section>
         <section class="section-eight">content here 8</section>
-        <section class="section-nine">content here 9</section>
         <section class="section-ten">content here 10</section>
         <section class="section-eleven">content here 11</section>
         <section class="section-twelve">content here 12</section>
