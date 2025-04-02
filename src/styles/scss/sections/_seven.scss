@@ -1,0 +1,53 @@
+.section-seven {
+    display: grid;
+    grid-template-rows: auto 1fr 1fr;
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 1px;
+    }
+
+    details {
+        &[open]::details-content {
+            background: $yellow-green;
+          }
+    }
+
+    .details__decor {
+        position: absolute;
+        padding: 1rem;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: $red;
+
+        text-align: center;
+        color: $white;
+    }
+
+    div.details__horizontal {
+        margin-top: .5rem;
+        position: relative;
+        flex-direction: row;
+        gap: .5rem;
+     
+        details {
+          &[open] summary,
+          &[open]::details-content {
+            background: $yellow-green;
+          }
+      
+          &[open]::details-content {
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: calc(100% - 1rem);  
+            z-index: 1;        
+          }
+        }
+    }
+}

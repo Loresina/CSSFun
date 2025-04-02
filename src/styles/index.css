@@ -350,4 +350,46 @@ body:has(dialog:modal) {
   }
 }
 
+.section-seven {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+}
+.section-seven div {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 1px;
+}
+.section-seven details[open]::details-content {
+  background: #cfff75;
+}
+.section-seven .details__decor {
+  position: absolute;
+  padding: 1rem;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ff5700;
+  text-align: center;
+  color: #fff;
+}
+.section-seven div.details__horizontal {
+  margin-top: 0.5rem;
+  position: relative;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.section-seven div.details__horizontal details[open] summary, .section-seven div.details__horizontal details[open]::details-content {
+  background: #cfff75;
+}
+.section-seven div.details__horizontal details[open]::details-content {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 1rem);
+  z-index: 1;
+}
+
 /*# sourceMappingURL=index.css.map */
